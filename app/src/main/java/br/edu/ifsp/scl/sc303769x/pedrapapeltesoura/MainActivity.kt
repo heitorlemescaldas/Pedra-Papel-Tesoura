@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 enum class Jogada(val icone: String, val descricao: String) {
-    PEDRA("🪨", "Pedra"),
+    PEDRA("✊", "Pedra"),
     PAPEL("📄", "Papel"),
     TESOURA("✂️", "Tesoura"),
     NENHUMA("❓", "Aguardando...")
